@@ -1,0 +1,27 @@
+.parent{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.child1{
+    color: #fff;
+    background-color: green;
+    padding: 50px;
+   flex-grow: 3;
+    
+}
+.child2{
+    color: #fff;
+    background-color: red;
+    padding: 50px;
+    order: 3;
+}
+.child3{
+    color: #fff;
+    background-color: blue;
+    padding: 50px;
+}
